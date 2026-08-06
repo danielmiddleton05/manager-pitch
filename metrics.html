@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Success Metrics &amp; Risks &mdash; Build Health</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">Build Health</a>
+        <div class="navbar__links">
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link" href="context.html">Context</a>
+          <a class="nav-link" href="initiative.html">Initiative</a>
+          <a class="nav-link" href="roadmap.html">Roadmap</a>
+          <a class="nav-link" href="leadership.html">Leadership</a>
+          <a class="nav-link is-active" href="metrics.html">Metrics</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div class="container stack">
+        <h1 class="h1 on-dark">Success Metrics &amp; Risks</h1>
+        <p class="subtitle accent">How we measure &amp; what to watch</p>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="content">
+        <h2 class="h2">Success Metrics</h2>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Baseline (End of Q1, Yr 1)</th>
+              <th>Target (End of Yr 2)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Pre-launch defect rate (accessibility + technical)</strong></td>
+              <td>Establish from Q1 audit</td>
+              <td>Meaningful reduction from baseline</td>
+            </tr>
+            <tr>
+              <td><strong>Manual QA hours per course build</strong></td>
+              <td>Establish from Q1 audit</td>
+              <td>Reduced through automated gate</td>
+            </tr>
+            <tr>
+              <td><strong>Adoption of new technical/accessibility fields in Tableau</strong> (active weekly use by POC/leadership)</td>
+              <td>0 (fields do not yet exist)</td>
+              <td>Standard part of portfolio review</td>
+            </tr>
+            <tr>
+              <td><strong>Reusable components in team library</strong></td>
+              <td>Individual, undocumented</td>
+              <td>Team-standard, versioned library in active use</td>
+            </tr>
+            <tr>
+              <td><strong>Team growth: documented skills matrix and 1:1 cadence</strong></td>
+              <td>Not yet formalized</td>
+              <td>Fully in place for all direct reports</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="h2">Risks &amp; Open Questions</h2>
+        <p>
+          Flagged here as working theories, not settled conclusions. Each needs
+          validation before full commitment.
+        </p>
+        <ul>
+          <li>
+            This plan depends on the data/BI team's capacity and willingness to
+            add new fields to existing Tableau reporting. That needs to be scoped
+            as a partnership in Q1, not assumed as a given.
+          </li>
+          <li>
+            Automated checks will not replace all human QA judgment. The exact
+            split between automated gate coverage and CMS's manual review scope
+            needs to be worked out with the CMS role directly, not decided for
+            them.
+          </li>
+          <li>
+            Live View platform instability is outside this pod's control. The plan
+            leans on direct DOM-level and Studio-side checks specifically because
+            of this, but platform reliability remains a dependency worth flagging
+            upward.
+          </li>
+          <li>
+            Tooling investment (time and any budget) for building the gate and the
+            Tableau integration needs Senior Manager sign-off before Q1 work
+            begins in earnest.
+          </li>
+        </ul>
+
+        <a class="back-link" href="index.html">Back to overview</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">Build Health &middot; A 1&ndash;2 Year Plan for the LSE / POC / CMS Pod</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Context &amp; Problem Statement &mdash; Build Health</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">Build Health</a>
+        <div class="navbar__links">
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link is-active" href="context.html">Context</a>
+          <a class="nav-link" href="initiative.html">Initiative</a>
+          <a class="nav-link" href="roadmap.html">Roadmap</a>
+          <a class="nav-link" href="leadership.html">Leadership</a>
+          <a class="nav-link" href="metrics.html">Metrics</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div class="container stack">
+        <h1 class="h1 on-dark">Context &amp; Problem Statement</h1>
+        <p class="subtitle accent">Why this, why now</p>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="content">
+        <ul>
+          <li>
+            Academy's OKRs call for a scalable design system, a faster
+            Alpha-to-Bravo lifecycle, and explicit portfolio health monitoring as
+            the catalog grows. All three land directly on this pod's day-to-day
+            work.
+          </li>
+          <li>
+            Quality and accessibility checks are currently manual and reactive. A
+            recent WCAG audit on a live course unit found a critical
+            focus-indicator gap and two major issues (unlabeled interactive
+            elements, a data table missing scope and caption) after the course was
+            already built and live.
+          </li>
+          <li>
+            The Live View student-facing environment has proven unstable during QA
+            sessions, which pushes more of the burden onto direct DOM-level checks
+            and away from relying on the student-facing environment to catch
+            issues.
+          </li>
+          <li>
+            Reusable components and Python automation exist, but as individual
+            initiative goals rather than a documented, versioned team standard.
+            That means the benefit caps out at one person's output instead of the
+            whole pod's.
+          </li>
+          <li>
+            The team already has shared Tableau reporting, owned by the data/BI
+            team, covering student completion, engagement, and assessment
+            activity. It does not yet cover build-level technical or accessibility
+            health, Alpha vs. Bravo stage, or QA status. That picture still lives
+            in people's heads or ad hoc requests.
+          </li>
+        </ul>
+
+        <a class="back-link" href="index.html">Back to overview</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">Build Health &middot; A 1&ndash;2 Year Plan for the LSE / POC / CMS Pod</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roadmap &mdash; Build Health</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">Build Health</a>
+        <div class="navbar__links">
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link" href="context.html">Context</a>
+          <a class="nav-link" href="initiative.html">Initiative</a>
+          <a class="nav-link is-active" href="roadmap.html">Roadmap</a>
+          <a class="nav-link" href="leadership.html">Leadership</a>
+          <a class="nav-link" href="metrics.html">Metrics</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div class="container stack">
+        <h1 class="h1 on-dark">Roadmap</h1>
+        <p class="subtitle accent">Two years, quarter by quarter</p>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="content">
+        <p class="timeline-year">Year 1</p>
+
+        <div class="phase">
+          <span class="phase__label">Q1</span>
+          <h3>Baseline and Alignment</h3>
+          <ul>
+            <li>
+              Audit current LSE, POC, and CMS workflows end to end at the pod
+              level, extending the team's existing value stream mapping work.
+            </li>
+            <li>
+              Define the technical and accessibility health fields to add to
+              existing Tableau reporting, together with POC, the data/BI team that
+              owns Tableau, and senior leadership input.
+            </li>
+            <li>
+              Inventory existing reusable components and automation scripts
+              already built across the team.
+            </li>
+            <li>
+              Set baseline numbers: average QA cycles per build, average
+              accessibility issues found post-launch, average build time.
+            </li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <span class="phase__label">Q2</span>
+          <h3>Build MVPs</h3>
+          <ul>
+            <li>Ship v1 of the automated accessibility and QA gate for one course type.</li>
+            <li>
+              Partner with the data/BI team to add a v1 technical and
+              accessibility health view to existing Tableau reporting; manual data
+              entry acceptable at this stage.
+            </li>
+            <li>
+              Formalize the component library structure and migrate the first
+              three reusable components into it.
+            </li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <span class="phase__label">Q3</span>
+          <h3>Adopt and Iterate</h3>
+          <ul>
+            <li>Roll the gate out to all active LSE builds.</li>
+            <li>
+              Train CMS to use gate output as a starting point rather than a full
+              manual re-audit.
+            </li>
+            <li>
+              Train POC to use the extended Tableau view for cross-department
+              reporting instead of ad hoc status requests.
+            </li>
+            <li>
+              Iterate on the gate's false positive and false negative rates based
+              on real usage.
+            </li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <span class="phase__label">Q4</span>
+          <h3>Prove Impact</h3>
+          <ul>
+            <li>
+              Present time saved, pre-launch vs. post-launch defect counts, and
+              adoption rate of the new Tableau fields to leadership.
+            </li>
+            <li>
+              Identify next-year automation targets based on the data gathered,
+              not assumption.
+            </li>
+          </ul>
+        </div>
+
+        <p class="timeline-year">Year 2</p>
+
+        <div class="phase">
+          <span class="phase__label">Q1&ndash;Q2</span>
+          <h3>Scale</h3>
+          <ul>
+            <li>
+              Extend the gate and the Tableau health feed to Bravo-stage products
+              and full cross-team visibility.
+            </li>
+            <li>
+              Connect the demand and completion signals already in Tableau to the
+              new technical and accessibility fields, so OKR 2 and OKR 4 data sit
+              in the same view as build health.
+            </li>
+            <li>
+              Stand up a leveling and growth framework across the three
+              disciplines on the team.
+            </li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <span class="phase__label">Q3&ndash;Q4</span>
+          <h3>Institutionalize</h3>
+          <ul>
+            <li>
+              Full technical and accessibility health reporting live across the
+              catalog, integrated into existing Tableau infrastructure.
+            </li>
+            <li>
+              Formal mentorship and coaching cadence in place, tied to performance
+              review cycles.
+            </li>
+            <li>
+              Report year-over-year metrics on production speed, defect rate, and
+              accessibility outcomes.
+            </li>
+            <li>
+              Propose the Year 3 roadmap based on what the data shows worked and
+              what did not.
+            </li>
+          </ul>
+        </div>
+
+        <a class="back-link" href="index.html">Back to overview</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">Build Health &middot; A 1&ndash;2 Year Plan for the LSE / POC / CMS Pod</div>
+    </footer>
+  </body>
+</html>
